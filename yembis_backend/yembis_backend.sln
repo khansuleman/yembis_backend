@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yembis_backend", "yembis_backend.csproj", "{CF1E26B4-3D73-42F3-A896-C8EEBF4145D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF1E26B4-3D73-42F3-A896-C8EEBF4145D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1E26B4-3D73-42F3-A896-C8EEBF4145D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1E26B4-3D73-42F3-A896-C8EEBF4145D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1E26B4-3D73-42F3-A896-C8EEBF4145D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82127BB2-1B73-4530-9B9F-A27D383F103A}
+	EndGlobalSection
+EndGlobal
