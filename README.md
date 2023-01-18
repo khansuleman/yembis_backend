@@ -1,6 +1,2 @@
-# Description
-Yembis backend in .NET
-
-# Admins
-- Suleman Khan
-- Emile de Vlieger
+# yembis_backend
+backend voor yembis
