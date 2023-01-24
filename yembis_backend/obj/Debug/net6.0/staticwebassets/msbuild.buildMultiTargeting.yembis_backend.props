@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\yembis_backend.props" />
+</Project>

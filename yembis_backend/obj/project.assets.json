@@ -224,19 +224,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\manu4\\.nuget\\packages\\": {}
+    "C:\\Users\\emile\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
+      "projectUniqueName": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj",
       "projectName": "yembis_backend",
-      "projectPath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
-      "packagesPath": "C:\\Users\\manu4\\.nuget\\packages\\",
-      "outputPath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\obj\\",
+      "projectPath": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj",
+      "packagesPath": "C:\\Users\\emile\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\manu4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
