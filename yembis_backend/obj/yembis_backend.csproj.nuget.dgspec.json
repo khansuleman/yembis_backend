@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj": {}
+    "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj": {}
   },
   "projects": {
-    "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj": {
+    "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
+        "projectUniqueName": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj",
         "projectName": "yembis_backend",
-        "projectPath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
-        "packagesPath": "C:\\Users\\manu4\\.nuget\\packages\\",
-        "outputPath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\obj\\",
+        "projectPath": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj",
+        "packagesPath": "C:\\Users\\emile\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\manu4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,20 +40,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
