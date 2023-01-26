@@ -1,0 +1,11 @@
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\yembis_backend.exe
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\yembis_backend.dll
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\yembis_backend.deps.json
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\yembis_backend.runtimeconfig.json
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\yembis_backend.pdb
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\emile\Documents\2022-2023\project4.0\Yembis_backend\yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
