@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using yembis_backend.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,12 +12,15 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.ConfigureSwaggerGen(setup =>
 {
-    setup.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    setup.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
     {
         Title = "RoadWatch",
-        Version = "v1"
+        Version = "v2"
     });
 });
+
+builder.Services.AddDbContext<RoadwatchContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("yembis_backendContext")));
+
 
 var app = builder.Build();
 

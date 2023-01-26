@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj": {}
+    "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj": {
+    "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj",
+        "projectUniqueName": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
         "projectName": "yembis_backend",
-        "projectPath": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\yembis_backend.csproj",
-        "packagesPath": "C:\\Users\\emile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\Yembis_backend\\yembis_backend\\yembis_backend\\obj\\",
+        "projectPath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
+        "packagesPath": "C:\\Users\\manu4\\.nuget\\packages\\",
+        "outputPath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manu4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
