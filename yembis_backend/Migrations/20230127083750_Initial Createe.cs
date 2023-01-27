@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace yembisbackend.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialCreatee : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -25,16 +25,16 @@ namespace yembisbackend.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Types",
+                name: "Categories",
                 columns: table => new
                 {
-                    TypeID = table.Column<int>(type: "int", nullable: false)
+                    CategorieID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     TypeVoertuig = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Types", x => x.TypeID);
+                    table.PrimaryKey("PK_Categories", x => x.CategorieID);
                 });
 
             migrationBuilder.CreateTable(
@@ -50,8 +50,8 @@ namespace yembisbackend.Migrations
                     Latitude = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Snelheidslimiet = table.Column<int>(type: "int", nullable: false),
                     Vrachtwagenvrijzone = table.Column<bool>(type: "bit", nullable: false),
-                    BeginPeriode = table.Column<DateTime>(type: "date", nullable: true),
-                    EindPeriode = table.Column<DateTime>(type: "date", nullable: true),
+                    BeginPeriode = table.Column<DateTime>(type: "date", nullable: false),
+                    EindPeriode = table.Column<DateTime>(type: "date", nullable: false),
                     Current = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
@@ -72,7 +72,7 @@ namespace yembisbackend.Migrations
                     MetingID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CameraID = table.Column<int>(type: "int", nullable: false),
-                    TypeID = table.Column<int>(type: "int", nullable: false),
+                    CategorieID = table.Column<int>(type: "int", nullable: false),
                     DatumTijd = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Snelheid = table.Column<int>(type: "int", nullable: false),
                     Overschreden = table.Column<bool>(type: "bit", nullable: false)
@@ -87,10 +87,10 @@ namespace yembisbackend.Migrations
                         principalColumn: "CameraID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Metings_Types_TypeID",
-                        column: x => x.TypeID,
-                        principalTable: "Types",
-                        principalColumn: "TypeID",
+                        name: "FK_Metings_Categories_CategorieID",
+                        column: x => x.CategorieID,
+                        principalTable: "Categories",
+                        principalColumn: "CategorieID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -105,9 +105,9 @@ namespace yembisbackend.Migrations
                 column: "CameraID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Metings_TypeID",
+                name: "IX_Metings_CategorieID",
                 table: "Metings",
-                column: "TypeID");
+                column: "CategorieID");
         }
 
         /// <inheritdoc />
@@ -123,7 +123,7 @@ namespace yembisbackend.Migrations
                 name: "Cameras");
 
             migrationBuilder.DropTable(
-                name: "Types");
+                name: "Categories");
         }
     }
 }

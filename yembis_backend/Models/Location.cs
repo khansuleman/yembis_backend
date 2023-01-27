@@ -15,8 +15,8 @@ namespace yembis_backend.Models
         public int Snelheidslimiet { get; set; }
         public Boolean Vrachtwagenvrijzone { get; set; }
 
-        public DateOnly? BeginPeriode { get; set; }
-        public DateOnly? EindPeriode { get; set; }
+        public DateOnly BeginPeriode { get; set; }
+        public DateOnly EindPeriode { get; set; }
         public Boolean Current { get; set; }
 
         public Camera Camera { get; set; }

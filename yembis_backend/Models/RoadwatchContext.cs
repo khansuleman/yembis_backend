@@ -14,7 +14,7 @@ namespace yembis_backend.Models
 
         public DbSet<Camera> Cameras { get; set; }
         public DbSet<Meting> Metings { get; set; }
-        public DbSet<Type> Types { get; set; }
+        public DbSet<Categorie> Categories { get; set; }
 
         protected override void ConfigureConventions(ModelConfigurationBuilder builder)
         {

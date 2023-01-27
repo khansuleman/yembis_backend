@@ -39,6 +39,23 @@ namespace yembisbackend.Migrations
                     b.ToTable("Cameras");
                 });
 
+            modelBuilder.Entity("yembis_backend.Models.Categorie", b =>
+                {
+                    b.Property<int>("CategorieID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategorieID"));
+
+                    b.Property<string>("TypeVoertuig")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CategorieID");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("yembis_backend.Models.Location", b =>
                 {
                     b.Property<int>("LocationID")
@@ -47,7 +64,7 @@ namespace yembisbackend.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LocationID"));
 
-                    b.Property<DateTime?>("BeginPeriode")
+                    b.Property<DateTime>("BeginPeriode")
                         .HasColumnType("date");
 
                     b.Property<int>("CameraID")
@@ -56,7 +73,7 @@ namespace yembisbackend.Migrations
                     b.Property<bool>("Current")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime?>("EindPeriode")
+                    b.Property<DateTime>("EindPeriode")
                         .HasColumnType("date");
 
                     b.Property<string>("Gemeente")
@@ -99,6 +116,9 @@ namespace yembisbackend.Migrations
                     b.Property<int>("CameraID")
                         .HasColumnType("int");
 
+                    b.Property<int>("CategorieID")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("DatumTijd")
                         .HasColumnType("datetime2");
 
@@ -108,33 +128,13 @@ namespace yembisbackend.Migrations
                     b.Property<int>("Snelheid")
                         .HasColumnType("int");
 
-                    b.Property<int>("TypeID")
-                        .HasColumnType("int");
-
                     b.HasKey("MetingID");
 
                     b.HasIndex("CameraID");
 
-                    b.HasIndex("TypeID");
+                    b.HasIndex("CategorieID");
 
                     b.ToTable("Metings");
-                });
-
-            modelBuilder.Entity("yembis_backend.Models.Type", b =>
-                {
-                    b.Property<int>("TypeID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TypeID"));
-
-                    b.Property<string>("TypeVoertuig")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("TypeID");
-
-                    b.ToTable("Types");
                 });
 
             modelBuilder.Entity("yembis_backend.Models.Location", b =>
@@ -156,15 +156,15 @@ namespace yembisbackend.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("yembis_backend.Models.Type", "Type")
+                    b.HasOne("yembis_backend.Models.Categorie", "Categorie")
                         .WithMany()
-                        .HasForeignKey("TypeID")
+                        .HasForeignKey("CategorieID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Camera");
 
-                    b.Navigation("Type");
+                    b.Navigation("Categorie");
                 });
 #pragma warning restore 612, 618
         }

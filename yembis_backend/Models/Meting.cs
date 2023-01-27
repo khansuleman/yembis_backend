@@ -7,7 +7,7 @@ namespace yembis_backend.Models
         [Key]
         public int MetingID { get; set; }
         public int CameraID { get; set; }
-        public int TypeID { get; set; }
+        public int CategorieID { get; set; }
         [Required]
         public DateTime DatumTijd { get; set; }
         [Required]
@@ -15,7 +15,7 @@ namespace yembis_backend.Models
         [Required]
         public Boolean Overschreden { get; set; }
 
-        public Type Type { get; set; }
+        public Categorie Categorie { get; set; }
         public Camera Camera { get; set; }
     }
 }

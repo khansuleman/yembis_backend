@@ -12,10 +12,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.ConfigureSwaggerGen(setup =>
 {
-    setup.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
+    setup.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
         Title = "RoadWatch",
-        Version = "v2"
+        Version = "v3"
     });
 });
 
