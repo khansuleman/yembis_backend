@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace yembis_backend.Models
 {
@@ -8,7 +9,7 @@ namespace yembis_backend.Models
         [Key]
         public int CategorieID { get; set; }
 
-        [Required] 
+      
         public string TypeVoertuig { get; set; }
     }
 }

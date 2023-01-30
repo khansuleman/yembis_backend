@@ -137,6 +137,53 @@ namespace yembisbackend.Migrations
                     b.ToTable("Metings");
                 });
 
+            modelBuilder.Entity("yembis_backend.Models.SpeedLimit", b =>
+                {
+                    b.Property<int>("LimitID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LimitID"));
+
+                    b.Property<int>("CategorieID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LocationID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Snelheidslimiet")
+                        .HasColumnType("int");
+
+                    b.HasKey("LimitID");
+
+                    b.HasIndex("CategorieID");
+
+                    b.HasIndex("LocationID");
+
+                    b.ToTable("SpeedLimits");
+                });
+
+            modelBuilder.Entity("yembis_backend.Models.User", b =>
+                {
+                    b.Property<int>("UserID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"));
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserID");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("yembis_backend.Models.Location", b =>
                 {
                     b.HasOne("yembis_backend.Models.Camera", "Camera")
@@ -165,6 +212,25 @@ namespace yembisbackend.Migrations
                     b.Navigation("Camera");
 
                     b.Navigation("Categorie");
+                });
+
+            modelBuilder.Entity("yembis_backend.Models.SpeedLimit", b =>
+                {
+                    b.HasOne("yembis_backend.Models.Categorie", "Categorie")
+                        .WithMany()
+                        .HasForeignKey("CategorieID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("yembis_backend.Models.Location", "Location")
+                        .WithMany()
+                        .HasForeignKey("LocationID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Categorie");
+
+                    b.Navigation("Location");
                 });
 #pragma warning restore 612, 618
         }

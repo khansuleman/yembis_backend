@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using yembis_backend.Models;
 
 namespace yembis_backend.Models
 {
@@ -15,6 +16,8 @@ namespace yembis_backend.Models
         public DbSet<Camera> Cameras { get; set; }
         public DbSet<Meting> Metings { get; set; }
         public DbSet<Categorie> Categories { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<SpeedLimit> SpeedLimits { get; set; }
 
         protected override void ConfigureConventions(ModelConfigurationBuilder builder)
         {
@@ -26,6 +29,8 @@ namespace yembis_backend.Models
             base.ConfigureConventions(builder);
 
         }
+
+        
 
     }
 }

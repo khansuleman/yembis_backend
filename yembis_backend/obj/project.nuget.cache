@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q0p6bG8bMmSaE5xPhuI8hgCQlHZ73X+HNR5vvEuEIVl1h8be9DZOtj39sv0JsTA0bzEKtp1hOXRwUYv14VxtIg==",
+  "dgSpecHash": "phLzpbEXfFf9eaoyqn0I3D9R5uYTRRWnmGhAt38ANAFLrVUW/ulKjLbiVyrzt0hASEnXY9Jzoc9fE1ie8kCy5Q==",
   "success": true,
   "projectFilePath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\manu4\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\manu4\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\manu4\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\manu4\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.13\\microsoft.aspnetcore.authentication.jwtbearer.6.0.13.nupkg.sha512",
     "C:\\Users\\manu4\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\manu4\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\manu4\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
