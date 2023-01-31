@@ -13,6 +13,8 @@ namespace yembis_backend.Models
         public int CameraID { get; set; }
       
         public int CategorieID { get; set; }
+
+        public int LocationID { get; set; } 
         [Required]
         public DateTime DatumTijd { get; set; }
         [Required]
@@ -22,10 +24,10 @@ namespace yembis_backend.Models
         public Boolean Overschreden { get; set; }
 
         
-       /* public Categorie Categorie { get; set; }
+        public Categorie Categorie { get; set; }
 
+        public Camera Camera { get; set; }
 
-       
-        public Camera Camera { get; set; }*/
+     
     }
 }

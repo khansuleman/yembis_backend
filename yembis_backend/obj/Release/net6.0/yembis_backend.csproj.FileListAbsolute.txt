@@ -37,8 +37,6 @@ D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\yembis_backend.deps.j
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\yembis_backend.runtimeconfig.json
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\yembis_backend.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\yembis_backend.pdb
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Azure.Core.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Azure.Identity.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Humanizer.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\MessagePack.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\MessagePack.Annotations.dll
@@ -69,19 +67,9 @@ D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.EntityFrame
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.DependencyModel.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.Logging.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.Options.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Identity.Client.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
@@ -89,7 +77,6 @@ D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.IdentityMod
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.NET.StringTools.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.OpenApi.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.SqlServer.Server.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -99,7 +86,6 @@ D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.VisualStudi
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Mono.TextTemplating.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Newtonsoft.Json.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\NuGet.Common.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\NuGet.Configuration.dll
@@ -113,7 +99,6 @@ D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\NuGet.Versioning.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.CodeDom.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Composition.AttributedModel.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Composition.Convention.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Composition.Hosting.dll
@@ -122,13 +107,10 @@ D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Composition.Ty
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Drawing.Common.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Memory.Data.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Reflection.MetadataLoadContext.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Runtime.Caching.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Security.Permissions.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Text.Encodings.Web.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Text.Json.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Windows.Extensions.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -297,7 +279,6 @@ D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\runtimes\unix\lib\net
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\yembis_backend.csproj.AssemblyReference.cache
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\yembis_backend.GeneratedMSBuildEditorConfig.editorconfig
@@ -320,3 +301,6 @@ D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\refint\yembis_backend
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\yembis_backend.pdb
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\yembis_backend.genruntimeconfig.cache
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\ref\yembis_backend.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\BCrypt.Net-Next.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\omnisharp.json
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll

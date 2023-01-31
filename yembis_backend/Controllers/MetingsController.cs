@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using yembis_backend.Helpers;
 using yembis_backend.Models;
 
 namespace yembis_backend.Controllers
 {
-    [Route("api/[controller]")]
+
     [ApiController]
+    [Route("/")]
     public class MetingsController : ControllerBase
     {
         private readonly RoadwatchContext _context;
