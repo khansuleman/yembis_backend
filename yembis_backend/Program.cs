@@ -10,7 +10,7 @@ using yembis_backend;
 using yembis_backend.Helpers;
 using yembis_backend.Models;
 using yembis_backend.Services;
-using yembis_backend.Services.Impl;
+
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -39,7 +39,6 @@ builder.Services.AddSwaggerGen();
 
 /*var appSettingsSection = builder.Configuration.GetSection("AppSettings");
 builder.Services.Configure<AppSettings>(appSettingsSection);
-
 var appSettings = appSettingsSection.Get<AppSettings>();
 var key = Encoding.ASCII.GetBytes(appSettings.Secret);
 builder.Services.AddAuthentication(x =>
@@ -59,7 +58,6 @@ builder.Services.AddAuthentication(x =>
         ValidateAudience = false
     };
 });
-
 builder.Services.AddScoped<IUserService, UserService>();*/
 
 

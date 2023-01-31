@@ -12,7 +12,6 @@ namespace yembis_backend.Models
         public string Straat { get; set; }
         public string Longitude { get; set; }
         public string Latitude { get; set; }
-        public int Snelheidslimiet { get; set; }
         public Boolean Vrachtwagenvrijzone { get; set; }
 
         public DateOnly BeginPeriode { get; set; }
