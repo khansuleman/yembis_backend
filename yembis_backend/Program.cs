@@ -6,10 +6,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Configuration;
 using System.Text;
-using yembis_backend;
-using yembis_backend.Helpers;
 using yembis_backend.Models;
-using yembis_backend.Services;
+
 
 
 var builder = WebApplication.CreateBuilder(args);

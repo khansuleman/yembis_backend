@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace yembis_backend.Models
 {
@@ -14,10 +16,12 @@ namespace yembis_backend.Models
         public string Latitude { get; set; }
         public Boolean Vrachtwagenvrijzone { get; set; }
 
-        public DateOnly BeginPeriode { get; set; }
-        public DateOnly EindPeriode { get; set; }
+        public DateTime BeginPeriode { get; set; }
+        public DateTime EindPeriode { get; set; }
         public Boolean Current { get; set; }
 
-        public Camera Camera { get; set; }
+
+        [JsonIgnore]
+        public Camera? Camera { get; set; }
     }
 }

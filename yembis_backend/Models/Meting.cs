@@ -23,9 +23,9 @@ namespace yembis_backend.Models
         [JsonIgnore]
         public Boolean Overschreden { get; set; }
 
-        
+        [JsonIgnore]
         public Categorie Categorie { get; set; }
-
+        [JsonIgnore]
         public Camera Camera { get; set; }
 
      

@@ -5,13 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using yembis_backend.Helpers;
 using yembis_backend.Models;
 
 namespace yembis_backend.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("/api/locations")]
     public class LocationsController : ControllerBase
     {
         private readonly RoadwatchContext _context;
@@ -76,6 +75,16 @@ namespace yembis_backend.Controllers
         // POST: api/Locations
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+
+      /*  public IActionResult Create([Bind("LocationID, CameraID, Gemeente, Straat, Longitude, Latitude, Vrachtwagenvrijezone, BeginPeriode, EindPeriode, Current")] Location location) {
+
+            _context.Locations.Add(location);
+            _context.SaveChangesAsync();
+
+
+            return (IActionResult)location;
+        }*/
+
         public async Task<ActionResult<Location>> PostLocation(Location location)
         {
             _context.Locations.Add(location);
