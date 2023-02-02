@@ -304,3 +304,11 @@ D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.AspNetCore.Au
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\BCrypt.Net-Next.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\omnisharp.json
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.Azure.SqlDatabase.ElasticScale.Client.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.Web.Delegation.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.Web.Deployment.Tracing.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.Web.Deployment.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Debug\net6.0\Microsoft.Web.Services3.dll

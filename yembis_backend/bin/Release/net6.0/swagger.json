@@ -304,18 +304,26 @@
           "text/json",
           "application/*+json"
         ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "parameters": [
           {
             "in": "body",
             "name": "body",
             "schema": {
-              "$ref": "#/definitions/Location"
+              "$ref": "#/definitions/AddLocations"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Location"
+            }
           }
         }
       }
@@ -533,6 +541,40 @@
         }
       }
     },
+    "/api/meting/bulk": {
+      "post": {
+        "tags": [
+          "Metings"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/AddMetingen"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Meting"
+            }
+          }
+        }
+      }
+    },
     "/api/speedlimit": {
       "get": {
         "tags": [
@@ -669,6 +711,28 @@
     }
   },
   "definitions": {
+    "AddLocations": {
+      "type": "object",
+      "properties": {
+        "locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Location"
+          }
+        }
+      }
+    },
+    "AddMetingen": {
+      "type": "object",
+      "properties": {
+        "metings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Meting"
+          }
+        }
+      }
+    },
     "Camera": {
       "type": "object",
       "properties": {
@@ -736,10 +800,6 @@
       }
     },
     "Meting": {
-      "required": [
-        "datumTijd",
-        "snelheid"
-      ],
       "type": "object",
       "properties": {
         "metingID": {

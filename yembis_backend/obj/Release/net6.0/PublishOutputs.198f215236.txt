@@ -5,12 +5,17 @@ D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\omnisharp.
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\yembis_backend.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\yembis_backend.runtimeconfig.json
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\yembis_backend.pdb
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Azure.Core.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\BCrypt.Net-Next.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Humanizer.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\MessagePack.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.SqlDatabase.ElasticScale.Client.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.Framework.dll
@@ -54,6 +59,10 @@ D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Web.Delegation.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Web.Deployment.Tracing.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Web.Deployment.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Web.Services3.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\NuGet.Common.dll
@@ -76,6 +85,7 @@ D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\System.Com
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\System.Drawing.Common.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\System.Memory.Data.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\System.Reflection.MetadataLoadContext.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\System.Runtime.Caching.dll
 D:\YEMBIS\Yembis_backend\yembis_backend\obj\Release\net6.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll

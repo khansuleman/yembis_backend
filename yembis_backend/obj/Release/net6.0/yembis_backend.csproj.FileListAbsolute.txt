@@ -578,3 +578,13 @@ C:\Users\emile\Documents\2022-2023\project4.0\yembis_backend\yembis_backend\obj\
 C:\Users\emile\Documents\2022-2023\project4.0\yembis_backend\yembis_backend\obj\Release\net6.0\yembis_backend.pdb
 C:\Users\emile\Documents\2022-2023\project4.0\yembis_backend\yembis_backend\obj\Release\net6.0\yembis_backend.genruntimeconfig.cache
 C:\Users\emile\Documents\2022-2023\project4.0\yembis_backend\yembis_backend\obj\Release\net6.0\ref\yembis_backend.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Web.Delegation.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Web.Deployment.Tracing.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Web.Deployment.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Web.Services3.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Azure.SqlDatabase.ElasticScale.Client.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\Azure.Core.dll
+D:\YEMBIS\Yembis_backend\yembis_backend\bin\Release\net6.0\System.Memory.Data.dll

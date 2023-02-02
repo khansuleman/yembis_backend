@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\yembis_backend\\yembis_backend\\yembis_backend.csproj": {}
+    "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\yembis_backend\\yembis_backend\\yembis_backend.csproj": {
+    "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\yembis_backend\\yembis_backend\\yembis_backend.csproj",
+        "projectUniqueName": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
         "projectName": "yembis_backend",
-        "projectPath": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\yembis_backend\\yembis_backend\\yembis_backend.csproj",
-        "packagesPath": "C:\\Users\\emile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emile\\Documents\\2022-2023\\project4.0\\yembis_backend\\yembis_backend\\obj\\",
+        "projectPath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\yembis_backend.csproj",
+        "packagesPath": "C:\\Users\\manu4\\.nuget\\packages\\",
+        "outputPath": "D:\\YEMBIS\\Yembis_backend\\yembis_backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manu4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.27.0, )"
+            },
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
@@ -47,6 +51,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "Microsoft.Azure.SqlDatabase.ElasticScale.Service.SplitMerge": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -69,6 +77,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.11, )"
+            },
+            "Microsoft.Web.Deployment": {
+              "target": "Package",
+              "version": "[4.0.5, )"
+            },
+            "Microsoft.Web.Services3": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

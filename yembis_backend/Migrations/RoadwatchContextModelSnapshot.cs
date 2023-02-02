@@ -36,7 +36,7 @@ namespace yembisbackend.Migrations
 
                     b.HasKey("CameraID");
 
-                    b.ToTable("Cameras");
+                    b.ToTable("Cameras", (string)null);
                 });
 
             modelBuilder.Entity("yembis_backend.Models.Categorie", b =>
@@ -53,7 +53,7 @@ namespace yembisbackend.Migrations
 
                     b.HasKey("CategorieID");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("yembis_backend.Models.Location", b =>
@@ -99,7 +99,7 @@ namespace yembisbackend.Migrations
 
                     b.HasIndex("CameraID");
 
-                    b.ToTable("Locations");
+                    b.ToTable("Locations", (string)null);
                 });
 
             modelBuilder.Entity("yembis_backend.Models.Meting", b =>
@@ -130,11 +130,7 @@ namespace yembisbackend.Migrations
 
                     b.HasKey("MetingID");
 
-                    b.HasIndex("CameraID");
-
-                    b.HasIndex("CategorieID");
-
-                    b.ToTable("Metings");
+                    b.ToTable("Metings", (string)null);
                 });
 
             modelBuilder.Entity("yembis_backend.Models.SpeedLimit", b =>
@@ -160,7 +156,7 @@ namespace yembisbackend.Migrations
 
                     b.HasIndex("LocationID");
 
-                    b.ToTable("SpeedLimits");
+                    b.ToTable("SpeedLimits", (string)null);
                 });
 
             modelBuilder.Entity("yembis_backend.Models.Location", b =>
@@ -172,25 +168,6 @@ namespace yembisbackend.Migrations
                         .IsRequired();
 
                     b.Navigation("Camera");
-                });
-
-            modelBuilder.Entity("yembis_backend.Models.Meting", b =>
-                {
-                    b.HasOne("yembis_backend.Models.Camera", "Camera")
-                        .WithMany()
-                        .HasForeignKey("CameraID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("yembis_backend.Models.Categorie", "Categorie")
-                        .WithMany()
-                        .HasForeignKey("CategorieID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Camera");
-
-                    b.Navigation("Categorie");
                 });
 
             modelBuilder.Entity("yembis_backend.Models.SpeedLimit", b =>

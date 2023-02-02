@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
+using Azure.Core;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using yembis_backend.API.Model;
 using yembis_backend.Models;
 
 namespace yembis_backend.Controllers
@@ -83,6 +86,24 @@ namespace yembis_backend.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetMeting", new { id = meting.MetingID }, meting);
+        }
+
+        // POST: api/Metings/bulk
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost]
+        [Route("/api/meting/bulk")]
+        public async Task<ActionResult<Meting>> PostMetingBulk(AddMetingen Addmetingen)
+        {
+
+            foreach (Meting meting in Addmetingen.Metings)
+            {
+                _context.Metings.Add(meting);
+                
+            }
+
+            await _context.SaveChangesAsync();
+
+            return StatusCode(StatusCodes.Status201Created);
         }
 
         // DELETE: api/Metings/5

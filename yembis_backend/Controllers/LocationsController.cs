@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using yembis_backend.API.Model;
 using yembis_backend.Models;
 
 namespace yembis_backend.Controllers
@@ -76,23 +77,27 @@ namespace yembis_backend.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
 
-      /*  public IActionResult Create([Bind("LocationID, CameraID, Gemeente, Straat, Longitude, Latitude, Vrachtwagenvrijezone, BeginPeriode, EindPeriode, Current")] Location location) {
+        public async Task<ActionResult<Location>> PostLocation(AddLocations Addlocations)
+        {
+            foreach (Location location in Addlocations.Locations)
+            {
+                _context.Locations.Add(location);
+            }
 
-            _context.Locations.Add(location);
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
 
+            return StatusCode(StatusCodes.Status201Created);
+        }
 
-            return (IActionResult)location;
-        }*/
-
-        public async Task<ActionResult<Location>> PostLocation(Location location)
+   
+      /*  public async Task<ActionResult<Location>> PostLocation(Location location)
         {
             _context.Locations.Add(location);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetLocation", new { id = location.LocationID }, location);
         }
-
+*/
         // DELETE: api/Locations/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteLocation(int id)

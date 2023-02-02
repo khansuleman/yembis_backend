@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.Serialization;
 using System.Text.Json.Serialization;
 
@@ -15,19 +16,18 @@ namespace yembis_backend.Models
         public int CategorieID { get; set; }
 
         public int LocationID { get; set; } 
-        [Required]
+      
         public DateTime DatumTijd { get; set; }
-        [Required]
+      
         public int Snelheid { get; set; }
-        [Required]
+    
         [JsonIgnore]
         public Boolean Overschreden { get; set; }
-
         [JsonIgnore]
-        public Categorie Categorie { get; set; }
+        public Categorie? Categorie { get; set; }
         [JsonIgnore]
-        public Camera Camera { get; set; }
+        public Camera? Camera { get; set; }
 
-     
+
     }
 }

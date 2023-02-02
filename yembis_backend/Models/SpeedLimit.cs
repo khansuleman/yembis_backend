@@ -18,9 +18,9 @@ namespace yembis_backend.Models
         public int Snelheidslimiet { get; set; }
 
         [JsonIgnore]
-        public Categorie Categorie { get; set; }
+        public Categorie? Categorie { get; set; }
         [JsonIgnore]
-        public Location Location { get; set; }
+        public Location? Location { get; set; }
 
     }
 }

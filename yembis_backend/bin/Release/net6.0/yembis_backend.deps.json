@@ -8,17 +8,38 @@
     ".NETCoreApp,Version=v6.0": {
       "yembis_backend/1.0.0": {
         "dependencies": {
+          "Azure.Core": "1.27.0",
           "BCrypt.Net-Next": "4.0.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.13",
+          "Microsoft.Azure.SqlDatabase.ElasticScale.Service.SplitMerge": "1.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.13",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.13",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11",
+          "Microsoft.Web.Deployment": "4.0.5",
+          "Microsoft.Web.Services3": "3.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "yembis_backend.dll": {}
+        }
+      },
+      "Azure.Core/1.27.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0",
+          "System.Memory.Data": "1.0.2",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Text.Encodings.Web": "6.0.0",
+          "System.Text.Json": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/net6.0/Azure.Core.dll": {
+            "assemblyVersion": "1.27.0.0",
+            "fileVersion": "1.2700.23.6003"
+          }
         }
       },
       "BCrypt.Net-Next/4.0.3": {
@@ -26,6 +47,25 @@
           "lib/net6.0/BCrypt.Net-Next.dll": {
             "assemblyVersion": "4.0.3.0",
             "fileVersion": "4.0.3.0"
+          }
+        }
+      },
+      "EnterpriseLibrary.TransientFaultHandling/6.0.1304": {
+        "runtime": {
+          "lib/portable-net45+win+wp8/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1304.0"
+          }
+        }
+      },
+      "EnterpriseLibrary.TransientFaultHandling.Data/6.0.1304.1": {
+        "dependencies": {
+          "EnterpriseLibrary.TransientFaultHandling": "6.0.1304"
+        },
+        "runtime": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1304.1"
           }
         }
       },
@@ -79,6 +119,27 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52608"
+          }
+        }
+      },
+      "Microsoft.Azure.SqlDatabase.ElasticScale.Client/1.0.0": {
+        "runtime": {
+          "lib/net45/Microsoft.Azure.SqlDatabase.ElasticScale.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.1"
+          }
+        }
+      },
+      "Microsoft.Azure.SqlDatabase.ElasticScale.Service.SplitMerge/1.2.0": {
+        "dependencies": {
+          "EnterpriseLibrary.TransientFaultHandling": "6.0.1304",
+          "EnterpriseLibrary.TransientFaultHandling.Data": "6.0.1304.1",
+          "Microsoft.Azure.SqlDatabase.ElasticScale.Client": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.3"
           }
         }
       },
@@ -1253,6 +1314,30 @@
           }
         }
       },
+      "Microsoft.Web.Deployment/4.0.5": {
+        "runtime": {
+          "lib/net45/Microsoft.Web.Delegation.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.3903.5"
+          },
+          "lib/net45/Microsoft.Web.Deployment.Tracing.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "7.1.3903.3"
+          },
+          "lib/net45/Microsoft.Web.Deployment.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "7.1.3903.7"
+          }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.5305.0"
+          }
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -1873,6 +1958,18 @@
         }
       },
       "System.Memory/4.5.5": {},
+      "System.Memory.Data/1.0.2": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "6.0.0",
+          "System.Text.Json": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.Data.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.221.20802"
+          }
+        }
+      },
       "System.Net.Http/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -1921,6 +2018,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Numerics.Vectors/4.5.0": {},
       "System.ObjectModel/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -2339,12 +2437,33 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Azure.Core/1.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2313x90KaNKRY88ZMK/4MQaNESTzgPEeUCeyXMrOoZwh8HsjuHAHPG8eskHlpmQ4CuOag+QEwE04vykzTvosrw==",
+      "path": "azure.core/1.27.0",
+      "hashPath": "azure.core.1.27.0.nupkg.sha512"
+    },
     "BCrypt.Net-Next/4.0.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
+    },
+    "EnterpriseLibrary.TransientFaultHandling/6.0.1304": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgRoEFLCYkifLnzAu8zsfnqmCmIFR4zyTxyi4oFD7GyGGaD4pHwuGlrgNeGIASrk4G81eWRjkoVHApeRaB50Ew==",
+      "path": "enterpriselibrary.transientfaulthandling/6.0.1304",
+      "hashPath": "enterpriselibrary.transientfaulthandling.6.0.1304.nupkg.sha512"
+    },
+    "EnterpriseLibrary.TransientFaultHandling.Data/6.0.1304.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hhMw7Kpb8rmi5lyiCJ4OrJM1EQIftjFMfHBheE/AtJegBsk6ex8DRymEaSFIxnbsUbVdHJVD9Vv1Pr2EkbHLxQ==",
+      "path": "enterpriselibrary.transientfaulthandling.data/6.0.1304.1",
+      "hashPath": "enterpriselibrary.transientfaulthandling.data.6.0.1304.1.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -2387,6 +2506,20 @@
       "sha512": "sha512-yCtBr1GSGzJrrp1NJUb4ltwFYMKHw/tJLnIDvg9g/FnkGIEzmE19tbCQqXARIJv5kdtBgsoVIdGLL+zmjxvM/A==",
       "path": "microsoft.aspnetcore.razor.language/6.0.0",
       "hashPath": "microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Azure.SqlDatabase.ElasticScale.Client/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nr5njK3nPBYquQ++XP2UWxrtB1xxyN4iXJU3PAewptlEdbWaV0p6hTjVZCJY0Z03MNcc0HUhfdtlfbcPpcbdWQ==",
+      "path": "microsoft.azure.sqldatabase.elasticscale.client/1.0.0",
+      "hashPath": "microsoft.azure.sqldatabase.elasticscale.client.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.Azure.SqlDatabase.ElasticScale.Service.SplitMerge/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gOnkkE1IvVj/ns248LNTTaqzGwVcZkVfsduyWLocy8r+YYH10ILWGiVp1vnZ5T+R6OzRTllTpKh0Dae7DXGOlQ==",
+      "path": "microsoft.azure.sqldatabase.elasticscale.service.splitmerge/1.2.0",
+      "hashPath": "microsoft.azure.sqldatabase.elasticscale.service.splitmerge.1.2.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "type": "package",
@@ -2800,6 +2933,20 @@
       "sha512": "sha512-UNqiCWFNUhm/6J9Ljzfbj7CbLkW6dfkvN+eflgBDrqi1N2yDWOA4UHzmPvsNuR2gwF5O5tzkzjpH3hnV74EQ0A==",
       "path": "microsoft.visualstudio.web.codegenerators.mvc/6.0.11",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.6.0.11.nupkg.sha512"
+    },
+    "Microsoft.Web.Deployment/4.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2oaT2ksEHS6C73zt1WJXDBRpK6RMmXgKIGHCiexSvlt2NAy3i8lqEV2pb6HpuvxCFHrkBNonN7xrysO79pIOtg==",
+      "path": "microsoft.web.deployment/4.0.5",
+      "hashPath": "microsoft.web.deployment.4.0.5.nupkg.sha512"
+    },
+    "Microsoft.Web.Services3/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f7TxDOPxdtxqgKma7PTUlpjeBVur9HFFvBR9UEhMU6qQiOOCG2RezmSdiMKuUlCpFB95AXoWB074ZpgCNbUupg==",
+      "path": "microsoft.web.services3/3.0.0",
+      "hashPath": "microsoft.web.services3.3.0.0.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -3263,6 +3410,13 @@
       "path": "system.memory/4.5.5",
       "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
+    "System.Memory.Data/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
+      "path": "system.memory.data/1.0.2",
+      "hashPath": "system.memory.data.1.0.2.nupkg.sha512"
+    },
     "System.Net.Http/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -3283,6 +3437,13 @@
       "sha512": "sha512-m6icV6TqQOAdgt5N/9I5KNpjom/5NFtkmGseEH+AK/hny8XrytLH3+b5M8zL/Ycg3fhIocFpUMyl/wpFnVRvdw==",
       "path": "system.net.sockets/4.3.0",
       "hashPath": "system.net.sockets.4.3.0.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
     "System.ObjectModel/4.3.0": {
       "type": "package",

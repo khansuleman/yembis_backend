@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "apis2": {
+      "apiEndpoint": "https://yembisbackendapi.azure-api.net/yembis.com",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/yembisbackendapi/apis/yembisbackend",
+      "type": "apis.azure"
+    }
+  }
+}
